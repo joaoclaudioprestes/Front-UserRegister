@@ -1,0 +1,23 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --black10: #121212;
+  --black20: #080808;
+  --black30: #151516;
+  --black40: #9a99a6;
+  --font-color10: #f7f7f7;
+  --font-color20: #9a99a6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212;
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+  }
+}
